@@ -14,8 +14,6 @@ I'm a passionate Full Stack developer with expertise in modern web technologies.
 
 ---
 
-<img align="right" height="112" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
-
 ### 📫 Connect With Me
 
 <p align="center">
@@ -30,6 +28,8 @@ I'm a passionate Full Stack developer with expertise in modern web technologies.
 ---
 
 ### 💻 Tech Stack
+
+<img align="right" height="112" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
 ### **Frontend Development**
 <p align="left">
