@@ -53,11 +53,9 @@ I'm a passionate Full Stack developer with expertise in modern web technologies.
 
 ---
 
-### 📊 GitHub Stats
-
 <div align="center">
 
-![S Max's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sahanlakshan100&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9)
+
   
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=sahanlakshan100&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9)
 
