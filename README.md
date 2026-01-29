@@ -9,14 +9,14 @@
 
 ---
 
-## 🚀 About Me
-I'm a passionate frontend developer with expertise in modern web technologies. I love creating beautiful, functional user interfaces that provide exceptional user experiences.
+### 🚀 About Me
+I'm a passionate Full Stack developer with expertise in modern web technologies. I love creating beautiful, functional user interfaces that provide exceptional user experiences.
 
 ---
 
-<img align="right" height="112" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
+<img align="right" height="112" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
 
-## 📫 Connect With Me
+### 📫 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sahan-lakshan-7092b4227/" target="_blank">
@@ -29,7 +29,7 @@ I'm a passionate frontend developer with expertise in modern web technologies. I
 
 ---
 
-## 💻 Tech Stack
+### 💻 Tech Stack
 
 ### **Frontend Development**
 <p align="left">
@@ -53,7 +53,7 @@ I'm a passionate frontend developer with expertise in modern web technologies. I
 
 ---
 
-## 📊 GitHub Stats
+### 📊 GitHub Stats
 
 <div align="center">
 
@@ -64,16 +64,6 @@ I'm a passionate frontend developer with expertise in modern web technologies. I
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sahanlakshan100&theme=radical&hide_border=true&background=0d1117&stroke=00b4d8&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8)
 
 </div>
-
----
-
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sahanlakshan100&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff)
-
-</div>
-
----
 
 <div align="center">
   
