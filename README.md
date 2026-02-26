@@ -56,8 +56,7 @@ I'm a passionate Full Stack developer with expertise in modern web technologies.
 <div align="center">
 
 
-  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=sahanlakshan100&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9)
+
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sahanlakshan100&theme=radical&hide_border=true&background=0d1117&stroke=00b4d8&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8)
 
