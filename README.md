@@ -17,6 +17,9 @@ I'm a passionate Full Stack developer with expertise in modern web technologies.
 ### 📫 Connect With Me
 
 <p align="center">
+  <a href="https://sahanlakshan100.github.io/Sahan-Lakshan-PortFolio-New/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/sahan-lakshan-7092b4227/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
