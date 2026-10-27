@@ -1,7 +1,7 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:00b4d8&height=220&section=header&text=Sahan%20Lakshan&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=aka%20S%20Max%20%C2%B7%20Full%20Stack%20Developer%20%C2%B7%20Sri%20Lanka&descSize=18&descAlignY=58&animation=fadeIn" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:00b4d8&height=220&section=header&text=Sahan%20Lakshan&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Sri%20Lanka&descSize=18&descAlignY=58&animation=fadeIn" alt="header"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;UI+%2F+UX+Enthusiast;Building+clean%2C+fast+web+experiences" alt="Typing SVG" />
@@ -30,6 +30,68 @@ const sahan = {
 ```
 
 I design and build beautiful, functional interfaces backed by solid engineering — from pixel-level front-end details to the APIs behind them.
+
+<br/>
+
+## ⚡ What I Do
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🎨 UI / UX Design</h3>
+      <sub>Wireframes and polished interfaces designed in Figma, ready to hand off to code.</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🖥️ Frontend</h3>
+      <sub>Responsive, accessible web apps with HTML, CSS, JavaScript, Bootstrap and Angular.</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>⚙️ Backend</h3>
+      <sub>APIs and server logic with Node.js, PHP, Python and C#.</sub>
+    </td>
+  </tr>
+</table>
+</div>
+
+<br/>
+
+## 🌱 Currently
+
+- 🔭 Building modern, responsive web applications
+- 🎯 Sharpening my skills in Angular and full stack architecture
+- 💬 Ask me about web development, UI design and Figma
+- ⚡ Fun fact: I like pixel-perfect layouts almost as much as clean code
+
+<br/>
+
+<!--
+## 📌 Featured Projects
+Replace REPO-1, REPO-2 etc. with your repo names, then remove the comment markers around this block.
+
+<div align="center">
+  <a href="https://github.com/SahanLakshan100/REPO-1">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahanlakshan100&repo=REPO-1&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/SahanLakshan100/REPO-2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahanlakshan100&repo=REPO-2&theme=radical&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9" />
+  </a>
+</div>
+
+<br/>
+-->
+
+## 🚀 Featured Work
+
+<div align="center">
+
+See my projects, designs and case studies in my portfolio.
+
+<a href="https://sahanlakshan100.github.io/Sahan-Lakshan-PortFolio-New/" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Portfolio-00b4d8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View Portfolio"/>
+</a>
+
+</div>
 
 <br/>
 
@@ -68,7 +130,17 @@ I design and build beautiful, functional interfaces backed by solid engineering 
 
 <br/>
 
-## 🏆 Contribution Graph
+## 🏅 Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=sahanlakshan100&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies"/>
+
+</div>
+
+<br/>
+
+## 🐍 Contribution Graph
 
 <div align="center">
 
@@ -97,6 +169,10 @@ I design and build beautiful, functional interfaces backed by solid engineering 
 </a>
 
 <br/><br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=false&bg_color=0d1117&quote_color=c9d1d9&author_color=00b4d8" alt="Random dev quote"/>
+
+<br/>
 
 <i>"Code is like humor. When you have to explain it, it's bad." — Cory House</i>
 
