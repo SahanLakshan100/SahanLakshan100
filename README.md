@@ -1,6 +1,8 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:00b4d8&height=220&section=header&text=Sahan%20Lakshan&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Sri%20Lanka&descSize=18&descAlignY=58&animation=fadeIn" alt="header"/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
