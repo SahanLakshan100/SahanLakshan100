@@ -130,11 +130,14 @@ See my projects, designs and case studies in my portfolio.
 
 <br/>
 
-## 🏅 Trophies
+## 🏅 GitHub at a Glance
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=sahanlakshan100&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies"/>
+![Followers](https://img.shields.io/github/followers/sahanlakshan100?style=for-the-badge&logo=github&logoColor=00b4d8&labelColor=0d1117&color=00b4d8)
+![Following](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/sahanlakshan100&query=following&label=Following&style=for-the-badge&logo=github&logoColor=00b4d8&labelColor=0d1117&color=00b4d8)
+![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/sahanlakshan100&query=public_repos&label=Public%20Repos&style=for-the-badge&logo=github&logoColor=00b4d8&labelColor=0d1117&color=00b4d8)
+![Public Gists](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/sahanlakshan100&query=public_gists&label=Public%20Gists&style=for-the-badge&logo=github&logoColor=00b4d8&labelColor=0d1117&color=00b4d8)
 
 </div>
 
