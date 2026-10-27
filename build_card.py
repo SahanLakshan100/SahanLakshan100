@@ -1,7 +1,7 @@
 """Builds dark_mode.svg and light_mode.svg: a neofetch-style profile card.
 Left: ASCII portrait (ascii.txt). Right: info + live GitHub stats.
 Stats are fetched with GITHUB_TOKEN when available (GitHub Actions); otherwise placeholders are shown."""
-import os, json, html, urllib.request
+import os, json, html, urllib.request, urllib.error
 
 USER = "SahanLakshan100"
 NAME_LINE = "sahan@lakshan"
@@ -25,17 +25,24 @@ CONTACT = [
     ("GitHub", USER),
 ]
 
-def fetch_stats():
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        return None
+def _api(url, token, data=None):
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "User-Agent": "profile-card"}
+    if data is not None:
+        headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(url, data=data, headers=headers)
+    try:
+        return json.load(urllib.request.urlopen(req, timeout=30))
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code} on {url}: {e.read().decode()[:300]}")
+
+def fetch_stats_graphql(token):
     q = """query($u:String!){user(login:$u){followers{totalCount} following{totalCount}
       repositories(ownerAffiliation:OWNER, privacy:PUBLIC, first:100){totalCount nodes{stargazerCount}}
       contributionsCollection{totalCommitContributions contributionCalendar{totalContributions}}}}"""
-    req = urllib.request.Request("https://api.github.com/graphql",
-        data=json.dumps({"query": q, "variables": {"u": USER}}).encode(),
-        headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"})
-    u = json.load(urllib.request.urlopen(req, timeout=30))["data"]["user"]
+    res = _api("https://api.github.com/graphql", token, json.dumps({"query": q, "variables": {"u": USER}}).encode())
+    if res.get("errors"):
+        raise RuntimeError(f"GraphQL errors: {res['errors']}")
+    u = res["data"]["user"]
     return {
         "Repos": u["repositories"]["totalCount"],
         "Stars": sum(n["stargazerCount"] for n in u["repositories"]["nodes"]),
@@ -44,6 +51,29 @@ def fetch_stats():
         "Followers": u["followers"]["totalCount"],
         "Following": u["following"]["totalCount"],
     }
+
+def fetch_stats_rest(token):
+    u = _api(f"https://api.github.com/users/{USER}", token)
+    repos = _api(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner", token)
+    return {
+        "Repos": u["public_repos"],
+        "Stars": sum(r.get("stargazers_count", 0) for r in repos),
+        "Commits (1y)": "--",
+        "Contributions (1y)": "--",
+        "Followers": u["followers"],
+        "Following": u["following"],
+    }
+
+def fetch_stats():
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        print("No GITHUB_TOKEN found, using placeholders (this is normal when running locally).")
+        return None
+    try:
+        return fetch_stats_graphql(token)
+    except Exception as e:
+        print("GraphQL failed, falling back to REST:", e)
+        return fetch_stats_rest(token)
 
 def build(theme, stats):
     pal = {
