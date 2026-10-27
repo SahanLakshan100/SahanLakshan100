@@ -1,7 +1,11 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:00b4d8&height=220&section=header&text=Sahan%20Lakshan&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20Sri%20Lanka&descSize=18&descAlignY=58&animation=fadeIn" alt="header"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="Sahan Lakshan: Full Stack Developer" src="dark_mode.svg" width="100%" />
+</picture>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;UI+%2F+UX+Enthusiast;Building+clean%2C+fast+web+experiences" alt="Typing SVG" />
